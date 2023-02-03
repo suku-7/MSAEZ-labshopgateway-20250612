@@ -24,6 +24,7 @@ public class Order {
 
     private Double amount;
 
+    /**
     @PostPersist
     public void onPostPersist() {
         //Following code causes dependency to external APIs
@@ -39,7 +40,7 @@ public class Order {
 
         OrderPlaced orderPlaced = new OrderPlaced(this);
         orderPlaced.publishAfterCommit();
-    }
+    } */
 
     @PrePersist
     public void onPrePersist() {}
