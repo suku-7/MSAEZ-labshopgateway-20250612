@@ -1,5 +1,5 @@
-## Model
-# labshopgateway-20250612 (gateway 설정 및 라우터 기능 확인)
+# Model
+## labshopgateway-20250612 (gateway 설정 및 라우터 기능 확인)
 https://labs.msaez.io/#/189596125/storming/lab-shop-gateway
 
 - 8082, 8088포트 모두 8082로 연동
