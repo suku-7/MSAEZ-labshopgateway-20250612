@@ -2,7 +2,8 @@
 # labshopgateway-20250612 (gateway 설정 및 라우터 기능 확인)
 https://labs.msaez.io/#/189596125/storming/lab-shop-gateway
 
-- 8082, 8088포트 모두 8082로 연동 
+- 8082, 8088포트 모두 8082로 연동
+
 ![스크린샷 2025-06-12 134713](https://github.com/user-attachments/assets/715b8813-e3cc-40ca-b3c0-123d5e1fced8)
 ![스크린샷 2025-06-12 140815](https://github.com/user-attachments/assets/e826e116-e7c8-48fa-a9f7-067eb4dbad5a)
 ![스크린샷 2025-06-12 141344](https://github.com/user-attachments/assets/572b12c0-d9dc-4acf-a6c0-0d72bfd5dd01)
