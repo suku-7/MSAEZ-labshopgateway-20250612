@@ -46,7 +46,7 @@ https://labs.msaez.io/#/189596125/storming/lab-shop-gateway
 
 - http localhost:8082/inventories
 - http localhost:8088/inventories
-
+---
 9. inventory 실행 및 테스트
 - cd inventory
 - mvn spring-boot:run
