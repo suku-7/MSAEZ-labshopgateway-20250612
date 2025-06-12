@@ -12,26 +12,26 @@ https://labs.msaez.io/#/189596125/storming/lab-shop-gateway
 ---
 ## 터미널 작성 참고용
 1. kafka 폴더 내에 docker-compose.yml 버전 변경 -> 7.5.3
-
+---
 2. sdk install java
-
+---
 3. 각 모듈 내 lombok 1.18.30으로 수정
 - monolith, inventory
-
+---
 4. httpie 설치
 - pip install httpie
-
+---
 5. kafka 구동
 - cd kafka
 - docker compose up
-
+---
 6. monolith 마이크로서비스, gate way 구동
 - cd monolith
 - mvn spring-boot:run
 
 - cd gateway
 - mvn spring-boot:run
-
+---
 7. 주문 1건 요청 (order 서비스와 gateway 서버 비교 테스트)
 - http localhost:8081/orders productId=1 qty=3 customerId=1001
 - http localhost:8081/orders
@@ -39,7 +39,7 @@ https://labs.msaez.io/#/189596125/storming/lab-shop-gateway
 - http localhost:8088/orders productId=1 qty=1 customerId=1001
 - http localhost:8081/orders 
 - http localhost:8088/orders
-
+---
 8. inventory 마이크로 서비스 실행
 - 게이트웨이서비스의 application.yaml 의 spring.cloud.gateway.routes 에 아래 설정을 추가하여 
 - inventory 서비스로의 라우팅을 추가한다. (indent 에 주의해주세요)
